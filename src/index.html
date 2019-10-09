@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Línea de código responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cifrado César</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form name="form">
+    <br>
+    <h1>CLOUD SECURITY </h1>
+    <label>Puedes protege tu nube con un mensaje secreto:</label>
+    <br><br>
+    <input type="number" id="chooseOffset" placeholder="Escoge el N° de posiciones">
+    <!-- Área de texto para escribir mensaje -->
+    <textarea id="writeMessage" placeholder="Escribe el mensaje en mayúsculas" ></textarea>
+    <input type="button" id="btnEncode" value= "CIFRA EL MENSAJE" />
+    <input type="button" id="btnDecode" value= "DESCIFRA EL MENSAJE" />
+    <!-- Área para mostrar el mensaje -->
+    <label>Recibe el Mensaje:</label>
+    <br><br>
+    <textarea id="msgResult"  placeholder="Resultado" readonly ></textarea>
+    <!-- Botón Limpiar casilleros -->
+    <input type="button" value="LIMPIA LOS CASILLEROS" id="btnClean" class="boton">
+</form>
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+</body>
+
 </html>

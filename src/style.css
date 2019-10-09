@@ -1,0 +1,64 @@
+body {
+  background-image:url(https://i.imgur.com/Npa2FQK.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed; /* Fijar la imágen */
+  margin: 0;
+  font-family: monospace;
+}
+
+form{
+  width: 450px ; /* Ancho */
+  margin : Auto ; /* formulario centrado */
+  background:rgba(0,0,0,0.6); /* 5to dígito transparencia*/
+  padding: 130px 20px ; /*Relleno : 10 vertical 20 horizontal*/
+  box-sizing: border-box ; /*El relleno del formulario*/
+  margin-top: 20 px;
+  border-radius: 20px ; /* esquinas redondeadas */
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  margin : 0 ;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white
+}
+
+label{
+  text-align: left;
+  margin : 0 ;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white
+}
+
+input , textarea {
+  width: 100% ; /* Ancho del 100%*/
+  margin-bottom: 10px;
+  padding: 3% ; /*Agrana el tamaño del ingreso*/
+  box-sizing: border-box ;
+  font-size: 15px;
+  border: none;
+}
+
+.button {
+  background-color: #37794b; /*Color fondo de botón*/
+  color:black ; /*texto del boton*/
+  padding: 10px; /* del texto al borde del boton */
+  margin: 10px 0px 10px 0px; /*superior derecho  inferior izquierdo*/
+  font-weight: bold;
+}
+
+#btnEncode, #btnDecode {
+  width: 48%;
+  font-size: 12px;
+
+}
+
+/*ancho como max*/
+@media(max-width:480px){
+  form{
+      width: 100%;
+  }
+}|< |>
