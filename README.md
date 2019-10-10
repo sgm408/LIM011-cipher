@@ -6,6 +6,10 @@ Mi proyecto se basa en un método de seguridad a través de mensajes secretos pa
 
 ***
 
+## IMAGEN FINAL DE PROYECTO
+
+***
+
 ## Investigación UX
 
 1. Los usuarios son personas que buscan proteger los archivos que tienen guardados en la nube y los objetivos del producto es darle mayor seguridad a estos archivos.
