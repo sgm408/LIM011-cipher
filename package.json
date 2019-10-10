@@ -15,7 +15,12 @@
     "eslint": "^5.9.0",
     "htmlhint": "^0.11.0",
     "jest": "^24.9.0",
+    "left-pad": "^1.3.0",
+    "node": "^12.11.1",
     "opener": "^1.5.1",
     "serve": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3"
   }
 }

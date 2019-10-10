@@ -2,16 +2,14 @@ window.cipher = {
 // función encode (cifrado)
   encode: (offset, string) => {
 
-    let resultEncode = '';
+    let resultEncode = ''; //Declarando un acumulador para el texto
 
-    for (let i = 0; i < string.length; i++) {
-      let convAscii = string.charCodeAt(i);
-    // condicional de mayúscula 65-90
-      if (convAscii >= 65 && convAscii <= 90) {
-
-        let result = ((convAscii - 65 + parseInt(offset)) % 26 + 65);
+    for (let i = 0; i < string.length; i++) { // Ciclo repetitivo para recorrer el texto a cifrar
+      let convAscii = string.charCodeAt(i); // Declarando una variable que guardará el codigo Ascii
+      if (convAscii >= 65 && convAscii <= 90) { // Ciclo condicional para que reconozca las mayusculas
+        let result = ((convAscii - 65 + parseInt(offset)) % 26 + 65); // Variable con la formula del cifrado Cesar
         let resultLetter = String.fromCharCode(result);
-        resultEncode = resultEncode + resultLetter;
+          resultEncode = resultEncode + resultLetter;
     }
     }
     return resultEncode;
@@ -32,7 +30,7 @@ window.cipher = {
     }
     return resultDecode;
   },
-  
+
   // función createCipherWithOffset con dos métodos (encode y decode)
   createCipherWithOffset: (offset) => {
     const result = {

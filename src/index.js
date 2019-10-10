@@ -2,6 +2,17 @@
 let message = document.getElementById('writeMessage');
 let result = document.getElementById('msgResult');
 let offset = document.getElementById('chooseOffset');
+const buttonStart = document.getElementById('start');
+const introWebApp = document.getElementById('contenedorPresentacion');
+const contentWebApp = document.getElementById('contenedorPrincipal');
+
+// Función de inicio declarada, conteniendo funciones propias de la interacción
+function start() {
+
+   contentWebApp.style.display = '';
+   buttonStart.style.display = 'none';
+   introWebApp.style.display = 'none';
+}
 
 // función de control de evento para cifrado
 document.getElementById('btnEncode').addEventListener('click', encrypted);
@@ -22,3 +33,4 @@ function clean (){
     result.value = '';
     offset.value = '';
 }
+buttonStart.addEventListener('click', start);

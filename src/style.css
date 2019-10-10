@@ -6,23 +6,51 @@ body {
   font-family: monospace;
 }
 
-form{
+.start {text-align: center;
+}
+
+.presentacion{
+  position: absolute;
+  top:50%;
+	left:50%;
   width: 450px ; /* Ancho */
-  margin : Auto ; /* formulario centrado */
-  background:rgba(0,0,0,0.6); /* 5to dígito transparencia*/
-  padding: 130px 20px ; /*Relleno : 10 vertical 20 horizontal*/
+  height:300px;
+  margin-left:-200px;
+  margin-top:-150px;
+  text-align: center;
+  background:rgba(0,0,0,0.8); /* 5to dígito transparencia*/
+  padding: 90px 20px ; /*Relleno : 90 vertical 20 horizontal*/
   box-sizing: border-box ; /*El relleno del formulario*/
-  margin-top: 20 px;
   border-radius: 20px ; /* esquinas redondeadas */
   font-size: 15px;
+  color:#ffffff;
+
+}
+
+.principal{
+  position: absolute;
+  top:50%;
+	left:50%;
+  width: 450px ; /* Ancho */
+  height:520px;
+  margin-left:-200px;
+  margin-top:-270px;
+  margin-bottom:-150px;
+  text-align: center;
+  background:rgba(0,0,0,0.8); /* 5to dígito transparencia*/
+  padding: 30px 20px ; /*Relleno : 130 vertical 20 horizontal*/
+  box-sizing: border-box ; /*El relleno del formulario*/
+  border-radius: 20px ; /* esquinas redondeadas */
+  font-size: 15px;
+  
 }
 
 h1{
   text-align: center;
   margin : 0 ;
   font-size: 25px;
-  margin-bottom: 20px;
-  color: white
+  margin-bottom: 10px;
+  color:#ffffff;
 }
 
 label{
@@ -30,7 +58,7 @@ label{
   margin : 0 ;
   font-size: 15px;
   margin-bottom: 20px;
-  color: white
+  color:#ffffff;
 }
 
 input , textarea {
