@@ -12,37 +12,37 @@
 
 <body>
 
-  <div id = "contenedorPresentacion" style = "visibility: visible" class = "presentacion">
+  <div id="contenedorPresentacion" style="visibility: visible" class="presentacion">
     <h1>CLOUD SECURITY </h1><br>
     <h4>¿Quieres tener protegidos tus archivos guardados en la nube y compartirlos de manera segura? <br>
-    <br>Prueba nuestro método de seguridad a través de mensajes secretos que podrás cifrar y descifrar.</h4> <br>
-    <div class="start"><button id = "start" style = "visibility : visible">Comenzar!</button>
+      <br>Prueba nuestro método de seguridad a través de mensajes secretos que podrás cifrar y descifrar.</h4> <br>
+    <div class="start"><button id="start" style="visibility : visible">Comenzar!</button>
     </div>
   </div>
 
-<!-- Definicion de items de App -->
-<section>
-  <div id = "contenedorPrincipal" style = "display:none" class = "principal">
-    <br>
-    <h1>CLOUD SECURITY </h1>
-    <br>
-    <label>Puedes proteger tu nube con un mensaje secreto:</label>
-    <br><br>
-    <input type="number" id="chooseOffset" placeholder="Escoge el N° de posiciones">
-    <!-- Área de texto para escribir mensaje -->
-    <textarea id="writeMessage" placeholder="Escribe el mensaje en mayúsculas" ></textarea>
-    <input type="button" id="btnEncode" value= "CIFRA EL MENSAJE" />
-    <input type="button" id="btnDecode" value= "DESCIFRA EL MENSAJE" />
-    <!-- Área para mostrar el mensaje -->
-    <label>Recibe el Mensaje:</label>
-    <br><br>
-    <textarea id="msgResult"  placeholder="Resultado" readonly ></textarea>
-    <!-- Botón Limpiar casilleros -->
-    <input type="button" value="LIMPIA LOS CASILLEROS" id="btnClean" class="boton">
-</div>
-</section>
-<script src="cipher.js"></script>
-<script src="index.js"></script>
+  <!-- Definicion de items de App -->
+  <section>
+    <div id="contenedorPrincipal" style="display:none" class="principal">
+      <br>
+      <h1>CLOUD SECURITY </h1>
+      <br>
+      <label>Puedes proteger tu nube con un mensaje secreto:</label>
+      <br><br>
+      <input type="number" id="chooseOffset" placeholder="Escoge el N° de posiciones">
+      <!-- Área de texto para escribir mensaje -->
+      <textarea id="writeMessage" placeholder="Escribe el mensaje en mayúsculas"></textarea>
+      <input type="button" id="btnEncode" value="CIFRA EL MENSAJE" />
+      <input type="button" id="btnDecode" value="DESCIFRA EL MENSAJE" />
+      <!-- Área para mostrar el mensaje -->
+      <label>Recibe el Mensaje:</label>
+      <br><br>
+      <textarea id="msgResult" placeholder="Resultado" readonly></textarea>
+      <!-- Botón Limpiar casilleros -->
+      <input type="button" value="LIMPIA LOS CASILLEROS" id="btnClean" class="boton">
+    </div>
+  </section>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

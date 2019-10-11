@@ -8,6 +8,9 @@ Mi proyecto se basa en un método de seguridad a través de mensajes secretos pa
 
 ## IMAGEN FINAL DE PROYECTO
 
+![imagen-proyecto-final1](https://i.imgur.com/YjbvYUU.png)
+![imagen-proyecto-final2](https://i.imgur.com/2ncy9E5.png)
+
 ***
 
 ## Investigación UX
@@ -16,8 +19,13 @@ Mi proyecto se basa en un método de seguridad a través de mensajes secretos pa
 
 2. El producto se basa en generar mensajes encriptados que el usuario podrá realizar, de tal manera que solo el mismo pueda acceder y compartir con quien quiera y de manera segura los archivos que tienen guardados en la nube.
 
-3. //foto del prototipo en papel
+3. Prototipo en papel:
 
-4. Feedback
+![foto-prototipo-papel](https://i.imgur.com/IL862kY.jpg)
 
-5. //imagen del prototipo final
+4. Gracias al feedback que me dieron mis compañeras solo realicé pequeños cambios en cuanto a los textos que agregaría y los nombres que indican algunos botones. Además me ayudaron con referencias sobre los tamaños de los bloques y sugerencias en cuanto a los colores que podría emplear en el diseño.
+
+5. Prototipo final:
+
+![imagen-prototipo-final1](https://i.imgur.com/iupzuVY.png)
+![imagen-prototipo-final2](https://i.imgur.com/VJXhngU.png)

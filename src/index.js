@@ -9,9 +9,9 @@ const contentWebApp = document.getElementById('contenedorPrincipal');
 // Función de inicio declarada, conteniendo funciones propias de la interacción
 function start() {
 
-   contentWebApp.style.display = '';
-   buttonStart.style.display = 'none';
-   introWebApp.style.display = 'none';
+    contentWebApp.style.display = '';
+    buttonStart.style.display = 'none';
+    introWebApp.style.display = 'none';
 }
 
 // función de control de evento para cifrado
@@ -21,14 +21,14 @@ function encrypted() {
 }
 
 // función de control de evento para descifrado
-document.getElementById('btnDecode').addEventListener('click',decrypted);
-function decrypted (){
+document.getElementById('btnDecode').addEventListener('click', decrypted);
+function decrypted() {
     result.value = cipher.decode(offset.value, message.value);
 }
 
 // función de control de evento para limpiado de resultado
 document.getElementById('btnClean').addEventListener('click', clean)
-function clean (){
+function clean() {
     message.value = '';
     result.value = '';
     offset.value = '';
