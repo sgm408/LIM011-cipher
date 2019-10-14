@@ -59,13 +59,13 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 ### Javascript
 
 - [ ✔ ] Manipulación de strings.
-- [ X ] Uso de condicionales (if-else | switch).
+- [ ✖ ] Uso de condicionales (if-else | switch).
 - [ ✔ ] Uso de bucles (for | do-while).    
 - [ ✔ ] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ X ] Declaración correcta de variables (const & let).
+- [ ✖ ] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ X ] Testeo de tus funciones.
+- [ ✖ ] Testeo de tus funciones.
 
 ### Git y GitHub
 - [ ✔ ] Comandos de git (add | commit | pull | status | push).
@@ -73,4 +73,4 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### Buenas prácticas de desarrollo
 - [ ✔ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ X ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [ ✖ ] Uso de linter para seguir buenas prácticas (ESLINT).
