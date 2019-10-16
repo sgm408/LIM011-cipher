@@ -1,6 +1,6 @@
 window.cipher = {
 
-  encode: (offset, string) => { // Función decode (cifrado)
+  encode: (offset, string) => { // Función encode (cifrado)
     let resultEncode = ''; // Declarando un acumulador para el texto
     for (let i = 0; i < string.length; i++) { // Ciclo repetitivo para recorrer el texto a cifrar
       if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) { // Ciclo condicional para que reconozca las mayúculas
