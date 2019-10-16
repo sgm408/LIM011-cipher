@@ -46,7 +46,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### HTML y CSS
 
-- [ ✔ ] Uso correcto de HTML semántico.
+- [ ✖ ] Uso correcto de HTML semántico.
 - [ ✔ ] Uso de selectores de CSS.
 - [ ✔ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
@@ -54,18 +54,18 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 - [ ✔ ] Uso de selectores del DOM.
 - [ ✔ ] Manejo de eventos del DOM.
-- [ ✔ ] Manipulación dinámica del DOM.
+- [ ✖ ] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [ ✔ ] Manipulación de strings.
+- [ ✖ ] Manipulación de strings.
 - [ ✖ ] Uso de condicionales (if-else | switch).
-- [ ✔ ] Uso de bucles (for | do-while).    
-- [ ✔ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ✖ ] Uso de bucles (for | do-while).    
+- [ ✔ ] Uso de funciones (parámetros | argumentos | [ ✖ ] valor de retorno).
 - [ ✔ ] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ✖ ] Testeo de tus funciones.
+- [ ✖ ] Testeo de tus funciones (Uso de aserciones)
 
 ### Git y GitHub
 - [ ✔ ] Comandos de git (add | commit | pull | status | push).
