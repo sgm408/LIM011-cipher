@@ -1,36 +1,28 @@
 window.cipher = {
-  
-  encode: (offset, string) => { // función encode (cifrado)
-    let resultEncode = ''; //Declarando un acumulador para el texto
+
+  encode: (offset, string) => { // Función decode (cifrado)
+    let resultEncode = ''; // Declarando un acumulador para el texto
     for (let i = 0; i < string.length; i++) { // Ciclo repetitivo para recorrer el texto a cifrar
-    let convAscii = string.charCodeAt(i); // Declarando una variable que guardará el codigo Ascii
-    if (convAscii >= 65 && convAscii <= 90) { // Ciclo condicional para que reconozca las mayusculas
-    let result = ((convAscii - 65 + parseInt(offset)) % 26 + 65); // Variable con la formula del cifrado Cesar
-    let resultLetter = String.fromCharCode(result); // Variable reasignada, retornandole el valor de letra.
-    resultEncode = resultEncode + resultLetter;
-    } 
+      if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) { // Ciclo condicional para que reconozca las mayúculas
+        resultEncode += String.fromCharCode((string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65); // Variable con la fórmula del Cifrado César
+      }
+      if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) { // Ciclo condicional para que reconozca las minúsculas
+        resultEncode += String.fromCharCode((string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97); // Variable con la formula del Cifrado César
+      }
     }
     return resultEncode; // Retornando el valor
   },
 
-  decode: (offset, string) => { // función decode (descifrado)
-    let resultDecode = ''; //Declarando un acumulador para el texto
+  decode: (offset, string) => { // Función decode (descifrado)
+    let resultDecode = ''; // Declarando un acumulador para el texto
     for (let i = 0; i < string.length; i++) { // Ciclo repetitivo para recorrer el texto a cifrar
-    let convAscii = string.charCodeAt(i); // Declarando una variable que guardará el codigo Ascii
-    if (convAscii >= 65 && convAscii <= 90) { // Ciclo condicional para que reconozca las mayusculas
-    let result = ((convAscii - 90 - parseInt(offset)) % 26 + 90); // Variable con la formula del cifrado Cesar
-    let resulLetter = String.fromCharCode(result); // Variable reasignada, retornandole el valor de letra.
-    resultDecode = resultDecode + resulLetter;
-    }
+      if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) { // Ciclo condicional para que reconozca las mayúculas
+        resultDecode += String.fromCharCode((string.charCodeAt(i) - 90 - parseInt(offset)) % 26 + 90); // Variable con la fórmula del Cifrado César
+      }
+      if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) { // Ciclo condicional para que reconozca las minúsculas
+        resultDecode += String.fromCharCode((string.charCodeAt(i) - 122 - parseInt(offset)) % 26 + 122); // Variable con la formula del Cifrado César
+      }
     }
     return resultDecode; // Retornando el valor
-  },
-
-  createCipherWithOffset: (offset) => { // función createCipherWithOffset con dos métodos (encode y decode)
-    const result = {
-    encode(string) { return cipher.encode(offset, string) },
-    decode(string) { return cipher.decode(offset, string) }
-    }
-    return result;
   }
 };

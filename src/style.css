@@ -6,10 +6,7 @@ body {
   font-family: monospace;
 }
 
-.start {text-align: center;
-}
-
-.presentacion{
+.intro{
   position: absolute;
   top:50%;
 	left:50%;
@@ -24,10 +21,9 @@ body {
   border-radius: 20px ; /* esquinas redondeadas */
   font-size: 15px;
   color:#ffffff;
-
 }
 
-.principal{
+.cipher{
   position: absolute;
   top:50%;
 	left:50%;
@@ -42,14 +38,13 @@ body {
   box-sizing: border-box ; /*El relleno del formulario*/
   border-radius: 20px ; /* esquinas redondeadas */
   font-size: 15px;
-
 }
 
 h1{
   text-align: center;
   margin : 0 ;
   font-size: 25px;
-  color:#ffffff;
+  color:#66C5E8;
 }
 
 label{
@@ -69,18 +64,30 @@ input , textarea {
   border: none;
 }
 
-.button {
-  background-color: #37794b; /*Color fondo de botón*/
-  color:black ; /*texto del boton*/
-  padding: 10px; /* del texto al borde del boton */
-  margin: 10px 0px 10px 0px; /*superior derecho  inferior izquierdo*/
+#btnStart {
+  width: 30%;
+  font-size: 12px;
   font-weight: bold;
+  background-color: #66C5E8; /*Color fondo de botón*/
+  color:white ; /*texto del boton*/
+  text-align: center;
 }
 
 #btnEncode, #btnDecode {
   width: 48%;
   font-size: 12px;
+  font-weight: bold;
+  background-color: #66C5E8; /*Color fondo de botón*/
+  color:white ; /*texto del boton*/
+  margin-bottom: 20px;
+}
 
+#btnClean {
+  background-color: #66C5E8; /*Color fondo de botón*/
+  color:white ; /*texto del boton*/
+  padding: 10px; /* del texto al borde del boton */
+  margin: 0px 0px 10px 0px; /*superior derecho  inferior izquierdo*/
+  font-weight: bold;
 }
 
 /*ancho como max*/
